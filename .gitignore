@@ -2,3 +2,6 @@
 platforms/
 node_modules/
 plugins/
+www-original/
+www/
+npm-debug.log
