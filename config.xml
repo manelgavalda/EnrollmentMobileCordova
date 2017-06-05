@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.enrollmentMobileCordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>EnrollmentMobileCordova</name>
+    <name>EnrollmentMobile</name>
     <description>
-        EnrollmentMobile Cordova app
+        Enrollment Mobile
     </description>
     <author email="manelgavalda@iesebre.com" href="http://www.github.com/manelgavalda">
         Manel Gavaldà Andreu
@@ -16,6 +16,18 @@
     <plugin name="cordova-plugin-console" spec="~1.0.2" />
     <plugin name="cordova-plugin-dialogs" spec="~1.2.0" />
     <plugin name="cordova-plugin-inappbrowser " spec="~1.7.0" />
+
+    <platform name="android">
+        <icon src="icon.png" />
+        <icon src="res/icons/android/icon-36-ldpi.png" />
+        <icon src="res/icons/android/icon-48-mdpi.png" />
+        <icon src="res/icons/android/icon-72-hdpi.png" />
+        <icon src="res/icons/android/icon-96-xhdpi.png" />
+        <icon src="res/icons/android/icon-144-xxhdpi.png" />
+        <icon src="res/icons/android/icon-192-xxxhdpi.png" />
+        <allow-intent href="market:*" />
+    </platform>
+
 
     <access origin="*" />
     <allow-intent href="http://*/*" />
